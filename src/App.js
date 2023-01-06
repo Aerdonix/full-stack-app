@@ -9,6 +9,7 @@ import DeleteUser from './components/DeleteUser'
 
 import { getCookie } from './common'
 import { authCheck } from './utils'
+ 
 
 
 // const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=7d2e5ef7"
@@ -76,7 +77,7 @@ const App = () => {
     //     )
     //   }      
     // </div>
-
+  <div className='container'>
     <div className='app'>
       <CreateUser />
 
@@ -95,6 +96,7 @@ const App = () => {
           <h2>Please login</h2>
       }
     </div>
+  </div>
   )
 
 }

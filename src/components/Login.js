@@ -18,15 +18,15 @@ const Login = ({setter}) => {
     return (
         <form onSubmit={submitHandler}>
             <label>Username:
-                <input onChange={(event) => setUsername(event.target.value)} />
+                <input onChange={(event) => setUsername(event.target.value)} required />
             </label>
             <br></br>
             <label>Email:
-                <input onChange={(event) => setEmail(event.target.value)} />
+                <input onChange={(event) => setEmail(event.target.value)} required />
             </label>
             <br></br>
             <label>Password:
-                <input onChange={(event) => setPassword(event.target.value)} />
+                <input type="password" onChange={(event) => setPassword(event.target.value)} required />
             </label>
             <br></br>
             <button type="submit">Click here to login</button>
