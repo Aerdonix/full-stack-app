@@ -79,8 +79,6 @@ const App = () => {
 
     <div className='app'>
       <CreateUser />
-      
-      <ReadUser />
 
       <Login setter={setUser} cookie={setCookie} />
 
